@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Text Color */
+.primary{
+
+}
+
+/* Google Font Family */
+h1, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Font Awesome Icon */
+.icon-sm{
+    font-size: 1.5rem;
+}
+.icon-lg{
+    font-size: 2rem;
+}
+.green-icon{
+    color: #d3ff4e;
+}
+.blue-icon{
+    color: #afcbff;
+}
+.pink-icon{
+    color: #ff9180;
+}
+
+
+
+/* Background Image for Header Section */
+.bg-img{
+    height: 600px; 
+    background-position: center; 
+    background-image: url('../img/japan.png');
+    background-repeat: no-repeat; 
+    background-size: 800px auto;
+}
+
+/* Button */
+/* <button class="focus:outline-none bg-blue-light text-white px-4 py-2 rounded-md shadow hover:bg-blue">Start Learning</button> */
+.{
+    outline: none;
+    background-color: #dee1ec;
+    color: #fff;
+    padding: 1rem 0.5rem;
+    border-radius: 20%;
+}
+
